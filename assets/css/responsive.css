@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1190px){
+    .sideIcon {
+        left: 0%;
+        z-index: 99;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .myStory{
+        padding: 40px 20px;
+    }
+}

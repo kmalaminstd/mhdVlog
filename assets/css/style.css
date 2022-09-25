@@ -37,11 +37,20 @@ main{
 
 nav{
     width: 100%;
+    z-index: 9999;
     background-color: transparent;
-    display: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    background-color: #5e1ff25d;
+}
+
+.inner-nav{
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 
@@ -147,7 +156,10 @@ header{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    margin-top: 80px;
 }
+
+
 
 header .content{
     width: 100%;
@@ -265,4 +277,168 @@ header .content p{
     padding: 20px;
 }
 
+
+
 /* mystory css */
+
+
+/* mhd gallery css */
+
+.instaPost{
+    width: 100%;
+    overflow: hidden;
+}
+
+.instaPostHeader{
+    width: 100%;
+}
+
+.instaPostHeader{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.instaPostPic{
+    width: 100%;
+    overflow: hidden;
+    display: -ms-flexbox; 
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+
+.instaPostPic img{
+    width: 30%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* mhd gallery css */
+
+/* footer css */
+
+footer{
+    margin-top: 40px;
+    background-color: #5d1ff2;
+    padding: 40px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+footer .footer-head{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer-head h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+footer .socialCont{
+    width: 200px;
+    margin: 20px auto;
+}
+
+footer .socialCont ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .socialCont ul li a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+}
+
+.leftFooter{
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+
+.leftFooterHeader{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.singleCont{
+    margin: 30px 0;
+}
+
+.singleCont h3{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.singleCont a{
+    color: #fff;
+    display: block;
+    font-weight: 100;
+}
+
+.rightFooter{
+    width: 50%;
+    float: right;
+    color: #fff;
+    margin-top: 23px;
+}
+
+.rightFooter form{
+    width: 100%;
+}
+
+.rightFooter form input, .rightFooter form textarea{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 9px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 8px 14px;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+footer form button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footerBottom{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.footerBottom p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.footerBottom p a{
+    color: #fff;
+}
+
+.footerBottom p a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* footer css */
