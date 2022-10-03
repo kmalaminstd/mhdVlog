@@ -1,8 +1,18 @@
 // selectors
 // nav selectors
 
-const navElm = document.querySelector('nav')
-const innerNavElm = document.querySelector('.inner-nav')
-const webHeaderElm = document.querySelector('header')
+const navToggleIconElm = document.querySelector('#navToggleIcon')
+const navUlElm = document.querySelector('.rightNav ul')
+
+navToggleIconElm.addEventListener('click', () => {
+    navUlElm.classList.toggle('rightNavUlToggle')
+})
+
+
+// back to top button funct
+
+// selectors
+const backToTopBtnElm = document.querySelector('.backToTop')
+
 
 

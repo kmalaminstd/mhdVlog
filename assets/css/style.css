@@ -7,6 +7,37 @@
 
 /* common css */
 
+body{
+    position: relative;
+}
+
+.backToTop{
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+}
+
+.backToTop a{
+    font-weight: bold;
+}
+
+.backToTop button{
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 .clearify{
     content: '';
     display: table;
@@ -62,12 +93,20 @@ nav{
     align-items: center;
     justify-content: flex-start;
     float: left;
+    position: relative;
 }
 
 .leftNav p{
     font-weight: 700;
     font-size: 40px;
 }
+
+#navToggleIcon{
+    position: absolute;
+    right: 25px;
+    display: none;
+}
+
 
 .rightNav{
     width: 50%;
@@ -77,6 +116,15 @@ nav{
 .rightNav ul{
     width: 100%;
     text-align: right;
+}
+
+.rightNav ul.rightNavUlToggle{
+    height: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
 }
 
 .rightNav ul li{
@@ -442,3 +490,85 @@ footer form button{
 
 
 /* footer css */
+
+
+/* follow me page design  */
+
+/* ================ */
+
+
+.followSite, .connectMe, .visitChannel{
+    width: 400px;
+    margin: 80px auto;
+    padding-top: 50px;
+}
+
+.followSite h2{
+    text-align: center;
+}
+
+.single{
+    padding: 8px 15px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    background-color: #5d1ff2;
+    margin: 10px 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.single a{
+    color: #fff;
+    display: block;
+    font-size: 21px;
+}
+
+
+.connectMe{
+    width: 400;
+}
+
+/* follow me page design  */
+
+/* ================ */
+
+
+/* vlog me page design  */
+
+/* ================ */
+
+.vlogVid h2{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.allVlogVid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.video{
+    width: 31%;
+    margin-top: 20px;
+    border: 1px solid lightgreen;
+}
+
+video iframe{
+    width: 100%;
+    height: auto;
+}
+
+
+/* vlog me page design  */
+
+/* ================ */

@@ -10,3 +10,81 @@
         padding: 40px 20px;
     }
 }
+
+/* break boint for different dervices */
+
+@media only screen and (max-width: 576px) {
+    
+    nav{
+        color: #fff;
+        background-color: #5e1ff2;
+    }
+
+    .leftNav {
+        width: 100%;
+    }
+
+    .rightNav{
+        width: 100%;
+    }
+
+    #navToggleIcon{
+        display: block;
+    }
+
+    .rightNav ul{
+        text-align: left;
+        height: 0;
+    }
+
+    .rightNav ul li{
+        display: block;
+    }
+
+    .rightNav ul li a{
+        color: #fff;
+    }
+
+    .myStory .leftMystory {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .myStory .leftMystory h2 {
+        width: 100%;
+    }
+
+    .myStory .rightMyStory {
+        width: 100%;
+        text-align: center;
+        height: 400px;
+    }
+
+    .instaPostPic {
+        justify-content: space-around;
+    }
+
+    .instaPostPic img {
+        width: 49%;
+    }
+
+    .leftFooter {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightFooter {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .followSite, .connectMe, .visitChannel{
+        width: 98%;
+        text-align: center;
+    }
+
+    .video{
+        width: 99%;
+    }
+}
