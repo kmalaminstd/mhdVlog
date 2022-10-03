@@ -5,15 +5,37 @@
     }
 }
 
+@media only screen and (max-width: 960px){
+    main{
+        width: 100%;
+    }
+
+    .inner-nav{
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 550px){
     .myStory{
         padding: 40px 20px;
+    }
+
+    .vlog_video iframe{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
     }
 }
 
 /* break boint for different dervices */
 
 @media only screen and (max-width: 576px) {
+
+    main{
+        width: 100%;
+    }
     
     nav{
         color: #fff;
@@ -86,5 +108,10 @@
 
     .video{
         width: 99%;
+    }
+
+    .video iframe{
+        width: 100%;
+        height: auto;
     }
 }

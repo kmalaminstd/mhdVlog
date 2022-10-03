@@ -556,14 +556,12 @@ footer form button{
 }
 
 
-
 .video{
-    width: 31%;
     margin-top: 20px;
-    border: 1px solid lightgreen;
 }
 
-video iframe{
+
+.video iframe{
     width: 100%;
     height: auto;
 }
